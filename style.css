@@ -15,7 +15,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  background-color: rgb(29, 29, 56);
+  background-color: #1d1d38;
 
 }
 
@@ -85,11 +85,12 @@ nav ul li a:hover {
 }
 
 main hr{
-  background: #9c97f1;
+      margin-bottom: 41px;
+      background-color:  #9c97f1;
   height: 1.2px;
-  max-width: 40px 20px;
-  border: 0;
-}
+/* max-width: 40px 20px; */
+  /* border: 0; */
+} 
 
 .secondsection h1 {
   font-size: 1.9rem;
@@ -136,7 +137,7 @@ main hr{
 }
 
 footer {
-  background-color: rgb(10, 10, 63);
+  background-color: #000000;
   color: gray;
   margin-top: 20px;
   padding: 12px 0;
