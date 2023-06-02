@@ -84,11 +84,15 @@ nav ul li a:hover {
   height: 80vh;
 }
 
-main hr{
+main hr,footer hr{
       margin-bottom: 41px;
       background-color:  #9c97f1;
-  height: 1.2px;
-/* max-width: 40px 20px; */
+      height: 1.2px;
+      width: 1100px;
+      display: flex;
+      margin: auto;
+      margin-bottom: 15px;
+    /* max-width: 40px 20px; */
   /* border: 0; */
 } 
 
@@ -163,9 +167,6 @@ footer ul li {
   color: gray;
 }
 
-/* footer hr{
-  background: #9c97f1;
-  height: 1.2px;
-  max-width: 40px 20px;
-  border: 0;
-} */
+ footer h3{
+  margin-top: 25px;
+} 
